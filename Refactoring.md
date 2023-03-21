@@ -9,3 +9,5 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+the wait I did this exercise was using TDD approach, I added new tests to cover all the possible outcomes the function could have, then I refactor the function to be more readable by creating a new function to evaluate the input `event` then I refactor the initial condition of `candidate` to be `TRIVIAL_PARTITION_KEY` which was the output when there is not event, now the function is readable in well tested
